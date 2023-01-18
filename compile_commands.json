@@ -1,0 +1,115 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-gdwarf-4",
+      "-I../include",
+      "-I.",
+      "-c",
+      "-o",
+      "lisp_core.o",
+      "../src/lisp_core.c"
+    ],
+    "directory": "/home/adr/devel/C/list-interpreter-newstart/out",
+    "file": "/home/adr/devel/C/list-interpreter-newstart/src/lisp_core.c",
+    "output": "/home/adr/devel/C/list-interpreter-newstart/out/lisp_core.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-gdwarf-4",
+      "-I../include",
+      "-I.",
+      "-c",
+      "-o",
+      "lisp_types.o",
+      "../src/lisp_types.c"
+    ],
+    "directory": "/home/adr/devel/C/list-interpreter-newstart/out",
+    "file": "/home/adr/devel/C/list-interpreter-newstart/src/lisp_types.c",
+    "output": "/home/adr/devel/C/list-interpreter-newstart/out/lisp_types.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-gdwarf-4",
+      "-I../include",
+      "-I.",
+      "-c",
+      "-o",
+      "symtable.o",
+      "../src/symtable.c"
+    ],
+    "directory": "/home/adr/devel/C/list-interpreter-newstart/out",
+    "file": "/home/adr/devel/C/list-interpreter-newstart/src/symtable.c",
+    "output": "/home/adr/devel/C/list-interpreter-newstart/out/symtable.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-gdwarf-4",
+      "-I../include",
+      "-I.",
+      "-c",
+      "-o",
+      "utils.o",
+      "../src/utils.c"
+    ],
+    "directory": "/home/adr/devel/C/list-interpreter-newstart/out",
+    "file": "/home/adr/devel/C/list-interpreter-newstart/src/utils.c",
+    "output": "/home/adr/devel/C/list-interpreter-newstart/out/utils.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-gdwarf-4",
+      "-I../include",
+      "-I.",
+      "-c",
+      "-o",
+      "lisp_parser.o",
+      "lisp_parser.c"
+    ],
+    "directory": "/home/adr/devel/C/list-interpreter-newstart/out",
+    "file": "/home/adr/devel/C/list-interpreter-newstart/out/lisp_parser.c",
+    "output": "/home/adr/devel/C/list-interpreter-newstart/out/lisp_parser.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-gdwarf-4",
+      "-I../include",
+      "-I.",
+      "-c",
+      "-o",
+      "lisp_scanner.o",
+      "lisp_scanner.c"
+    ],
+    "directory": "/home/adr/devel/C/list-interpreter-newstart/out",
+    "file": "/home/adr/devel/C/list-interpreter-newstart/out/lisp_scanner.c",
+    "output": "/home/adr/devel/C/list-interpreter-newstart/out/lisp_scanner.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-g",
+      "-gdwarf-4",
+      "-I../include",
+      "-I.",
+      "../lib/liblisp.a",
+      "-o",
+      "../prog/lisp",
+      "../main/lisp.c"
+    ],
+    "directory": "/home/adr/devel/C/list-interpreter-newstart/out",
+    "file": "/home/adr/devel/C/list-interpreter-newstart/main/lisp.c",
+    "output": "/home/adr/devel/C/list-interpreter-newstart/prog/lisp"
+  }
+]
